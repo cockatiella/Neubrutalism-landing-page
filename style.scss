@@ -1,0 +1,213 @@
+body {
+  background-color: #ffdca8;
+}
+
+.logo {
+  position: absolute;
+  width: 439px;
+  height: 125px;
+  left: 122px;
+  top: 0px;
+  background: #000000;
+  color: white;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+}
+
+nav ul {
+  list-style: none;
+  position: absolute;
+  right: 30px;
+  display: flex;
+  li {
+    
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Bebas Neue", cursive;
+    font-size: 20px;
+    margin-right: 90px;
+  }
+}
+
+//hero section
+
+.hero {
+  display: inline;
+  h1 {
+    font-size: 68px;
+    font-weight: 400;
+    position: absolute;
+    top: 150px;
+    font-family: "Bebas Neue", cursive;
+    margin-left: 110px ;
+  }
+  .checkout {
+    position: absolute;
+    width: 141.89px;
+    height: 104.14px;
+    left: 1300px;
+    top: 380px;
+    transform: rotate(-10.14deg);
+  }
+  .fa-mobile-screen-button {
+    font-size: 320px;
+    position: absolute;
+    right: 150px;
+    margin-top: 100px;
+  }
+
+  button {
+    background-color: #ee008f;
+    border: 3px solid black;
+    box-shadow: 4px 4px 0px #000000;
+    border-radius: 5px;
+    transform: rotate(-4.38deg);
+    width: 192px;
+    height: 56px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 128.14px;
+    top: 390.67px;
+    font-weight: 700;
+    font-family: "Bebas Neue", cursive;
+    font-size:32px;
+  }
+  img {
+    position: absolute;
+    width: 122.33px;
+    height: 87.14px;
+    left: 138.16px;
+    top: 403.25px;
+
+    transform: rotate(10.69deg);
+  }
+}
+
+.lorem {
+  p {
+    position: absolute;
+    width: 700px;
+    left: 127px;
+    top: 536px;
+
+    font-family: "Inria Sans";
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+  }
+  .card-1,
+  .card-2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 236px;
+    height: 276px;
+    top: 597px;
+    background: #ffffff;
+    border: 3px solid #000000;
+    box-shadow: 4px 4px 0px #000000;
+    border-radius: 5px;
+  }
+  .card-2 {
+    position: absolute;
+    left: 1300px;
+    h1 {
+      line-height: 0.5;
+      margin-left: 15px;
+      font-family: "Bebas Neue", cursive;
+    }
+    h2 {
+      margin-top: 40px;
+      text-transform: uppercase;
+      text-align: center;
+      padding: 5px;
+      font-family: "Bebas Neue", cursive;
+    }
+    p {
+      position: absolute;
+      width: 203px;
+      height: 94px;
+      left: 0px;
+      top: 110px;
+      font-family: "Inria Sans";
+      font-style: normal;
+      font-size: 14px;
+      color: #000000;
+      padding: 20px;
+    }
+    .green-box {
+      box-sizing: border-box;
+      position: absolute;
+      width: 237px;
+      height: 50px;
+      left: -4px;
+      top: -1px;
+      background: #30f144;
+      border: 3px solid #000000;
+      border-radius: 5px;
+      p {
+        position: absolute;
+        top: 0;
+        left: 10px;
+      }
+    }
+  }
+  .card-1 {
+    left: 1000px;
+    h1 {
+      line-height: 0.5;
+      margin-left: 15px;
+      font-family: "Bebas Neue", cursive;
+    }
+    h2 {
+      margin-top: 40px;
+      text-transform: uppercase;
+      text-align: center;
+      padding: 5px;
+      font-family: "Bebas Neue", cursive;
+    }
+    p {
+      position: absolute;
+      width: 203px;
+      height: 94px;
+      left: 0px;
+      top: 110px;
+      font-family: "Inria Sans";
+      font-style: normal;
+      font-size: 14px;
+      color: #000000;
+      padding: 20px;
+    }
+    .orange-box {
+      box-sizing: border-box;
+      position: absolute;
+      width: 237px;
+      height: 50px;
+      left: -4px;
+      top: -1px;
+      background: #f1a430;
+      border: 4px solid #000000;
+      border-radius: 5px;
+      p {
+        position: absolute;
+        top: 0;
+        left: 10px;
+      }
+    }
+  }
+}
+
+.vertical-line {
+  border-left: 4px solid black;
+  height: 600px;
+  position: absolute;
+  width: 500px;
+  left: 900px;
+  top: 512px;
+}
